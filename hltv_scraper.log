@@ -1,0 +1,329 @@
+2025-08-06 11:32:58,751 - INFO - Letter A detected maximum pages: 4
+2025-08-06 11:32:58,751 - INFO - Scraping letter A page 1: https://www.hltv.org/players/A
+2025-08-06 11:32:59,067 - INFO - Letter A page 1 found 52 player nicknames
+2025-08-06 11:32:59,068 - INFO - Scraping letter A page 2: https://www.hltv.org/players/A?offset=52
+2025-08-06 11:32:59,333 - INFO - Letter A page 2 found 52 player nicknames
+2025-08-06 11:32:59,333 - INFO - Scraping letter A page 3: https://www.hltv.org/players/A?offset=104
+2025-08-06 11:32:59,655 - INFO - Letter A page 3 found 52 player nicknames
+2025-08-06 11:33:06,841 - INFO - Letter S detected maximum pages: 8
+2025-08-06 11:33:06,841 - INFO - Scraping letter S page 1: https://www.hltv.org/players/S
+2025-08-06 11:33:07,088 - INFO - Letter S page 1 found 52 player nicknames
+2025-08-06 11:33:07,088 - INFO - Scraping letter S page 2: https://www.hltv.org/players/S?offset=52
+2025-08-06 11:33:07,442 - INFO - Letter S page 2 found 52 player nicknames
+2025-08-06 11:33:07,443 - INFO - Scraping letter S page 3: https://www.hltv.org/players/S?offset=104
+2025-08-06 11:33:07,802 - INFO - Letter S page 3 found 52 player nicknames
+2025-08-06 11:33:09,968 - INFO - Letter Z detected maximum pages: 2
+2025-08-06 11:33:09,969 - INFO - Scraping letter Z page 1: https://www.hltv.org/players/Z
+2025-08-06 11:33:10,256 - INFO - Letter Z page 1 found 52 player nicknames
+2025-08-06 11:33:10,256 - INFO - Scraping letter Z page 2: https://www.hltv.org/players/Z?offset=52
+2025-08-06 11:33:10,521 - INFO - Letter Z page 2 found 41 player nicknames
+2025-08-06 11:36:45,584 - INFO - Starting to scrape HLTV player nicknames in alphabetical order (A-Z)...
+2025-08-06 11:36:45,584 - INFO - Processing letter A (1/26)
+2025-08-06 11:36:49,214 - INFO - Letter A detected maximum pages: 4
+2025-08-06 11:36:49,214 - INFO - Scraping letter A page 1: https://www.hltv.org/players/A
+2025-08-06 11:36:49,473 - INFO - Letter A page 1 found 52 player nicknames
+2025-08-06 11:36:49,473 - INFO - Total unique nicknames: 52 (+52)
+2025-08-06 11:36:50,474 - INFO - Scraping letter A page 2: https://www.hltv.org/players/A?offset=52
+2025-08-06 11:36:50,761 - INFO - Letter A page 2 found 52 player nicknames
+2025-08-06 11:36:50,761 - INFO - Total unique nicknames: 103 (+51)
+2025-08-06 11:36:51,762 - INFO - Scraping letter A page 3: https://www.hltv.org/players/A?offset=104
+2025-08-06 11:36:52,021 - INFO - Letter A page 3 found 52 player nicknames
+2025-08-06 11:36:52,022 - INFO - Total unique nicknames: 155 (+52)
+2025-08-06 11:36:53,023 - INFO - Scraping letter A page 4: https://www.hltv.org/players/A?offset=156
+2025-08-06 11:36:53,558 - INFO - Letter A page 4 found 46 player nicknames
+2025-08-06 11:36:53,558 - INFO - Total unique nicknames: 200 (+45)
+2025-08-06 11:36:54,559 - INFO - Letter A processing completed, current total: 200 unique nicknames
+2025-08-06 11:36:54,559 - INFO - Processing letter B (2/26)
+2025-08-06 11:36:57,731 - INFO - Letter B detected maximum pages: 4
+2025-08-06 11:36:57,731 - INFO - Scraping letter B page 1: https://www.hltv.org/players/B
+2025-08-06 11:36:57,954 - INFO - Letter B page 1 found 52 player nicknames
+2025-08-06 11:36:57,954 - INFO - Total unique nicknames: 252 (+52)
+2025-08-06 11:36:58,955 - INFO - Scraping letter B page 2: https://www.hltv.org/players/B?offset=52
+2025-08-06 11:36:59,244 - INFO - Letter B page 2 found 52 player nicknames
+2025-08-06 11:36:59,244 - INFO - Total unique nicknames: 304 (+52)
+2025-08-06 11:37:00,246 - INFO - Scraping letter B page 3: https://www.hltv.org/players/B?offset=104
+2025-08-06 11:37:00,487 - INFO - Letter B page 3 found 52 player nicknames
+2025-08-06 11:37:00,487 - INFO - Total unique nicknames: 356 (+52)
+2025-08-06 11:37:01,488 - INFO - Scraping letter B page 4: https://www.hltv.org/players/B?offset=156
+2025-08-06 11:37:02,064 - INFO - Letter B page 4 found 25 player nicknames
+2025-08-06 11:37:02,064 - INFO - Total unique nicknames: 381 (+25)
+2025-08-06 11:37:03,065 - INFO - Letter B processing completed, current total: 381 unique nicknames
+2025-08-06 11:37:03,065 - INFO - Processing letter C (3/26)
+2025-08-06 11:37:06,427 - INFO - Letter C detected maximum pages: 4
+2025-08-06 11:37:06,427 - INFO - Scraping letter C page 1: https://www.hltv.org/players/C
+2025-08-06 11:37:06,642 - INFO - Letter C page 1 found 52 player nicknames
+2025-08-06 11:37:06,642 - INFO - Total unique nicknames: 433 (+52)
+2025-08-06 11:37:07,643 - INFO - Scraping letter C page 2: https://www.hltv.org/players/C?offset=52
+2025-08-06 11:37:07,874 - INFO - Letter C page 2 found 52 player nicknames
+2025-08-06 11:37:07,874 - INFO - Total unique nicknames: 485 (+52)
+2025-08-06 11:37:08,875 - INFO - Scraping letter C page 3: https://www.hltv.org/players/C?offset=104
+2025-08-06 11:37:09,164 - INFO - Letter C page 3 found 52 player nicknames
+2025-08-06 11:37:09,164 - INFO - Total unique nicknames: 537 (+52)
+2025-08-06 11:37:10,166 - INFO - Scraping letter C page 4: https://www.hltv.org/players/C?offset=156
+2025-08-06 11:37:10,495 - INFO - Letter C page 4 found 8 player nicknames
+2025-08-06 11:37:10,495 - INFO - Total unique nicknames: 545 (+8)
+2025-08-06 11:37:11,496 - INFO - Letter C processing completed, current total: 545 unique nicknames
+2025-08-06 11:37:11,496 - INFO - Processing letter D (4/26)
+2025-08-06 11:37:14,790 - INFO - Letter D detected maximum pages: 4
+2025-08-06 11:37:14,791 - INFO - Scraping letter D page 1: https://www.hltv.org/players/D
+2025-08-06 11:37:15,020 - INFO - Letter D page 1 found 52 player nicknames
+2025-08-06 11:37:15,021 - INFO - Total unique nicknames: 597 (+52)
+2025-08-06 11:37:16,022 - INFO - Scraping letter D page 2: https://www.hltv.org/players/D?offset=52
+2025-08-06 11:37:16,247 - INFO - Letter D page 2 found 52 player nicknames
+2025-08-06 11:37:16,247 - INFO - Total unique nicknames: 649 (+52)
+2025-08-06 11:37:17,248 - INFO - Scraping letter D page 3: https://www.hltv.org/players/D?offset=104
+2025-08-06 11:37:17,460 - INFO - Letter D page 3 found 52 player nicknames
+2025-08-06 11:37:17,460 - INFO - Total unique nicknames: 701 (+52)
+2025-08-06 11:37:18,461 - INFO - Scraping letter D page 4: https://www.hltv.org/players/D?offset=156
+2025-08-06 11:37:18,739 - INFO - Letter D page 4 found 35 player nicknames
+2025-08-06 11:37:18,740 - INFO - Total unique nicknames: 736 (+35)
+2025-08-06 11:37:19,741 - INFO - Letter D processing completed, current total: 736 unique nicknames
+2025-08-06 11:37:19,741 - INFO - Processing letter E (5/26)
+2025-08-06 11:37:21,331 - INFO - Letter E detected maximum pages: 2
+2025-08-06 11:37:21,331 - INFO - Scraping letter E page 1: https://www.hltv.org/players/E
+2025-08-06 11:37:21,548 - INFO - Letter E page 1 found 52 player nicknames
+2025-08-06 11:37:21,549 - INFO - Total unique nicknames: 788 (+52)
+2025-08-06 11:37:22,550 - INFO - Scraping letter E page 2: https://www.hltv.org/players/E?offset=52
+2025-08-06 11:37:22,879 - INFO - Letter E page 2 found 33 player nicknames
+2025-08-06 11:37:22,879 - INFO - Total unique nicknames: 821 (+33)
+2025-08-06 11:37:23,880 - INFO - Letter E processing completed, current total: 821 unique nicknames
+2025-08-06 11:37:23,880 - INFO - Processing letter F (6/26)
+2025-08-06 11:37:26,294 - INFO - Letter F detected maximum pages: 3
+2025-08-06 11:37:26,295 - INFO - Scraping letter F page 1: https://www.hltv.org/players/F
+2025-08-06 11:37:26,619 - INFO - Letter F page 1 found 52 player nicknames
+2025-08-06 11:37:26,619 - INFO - Total unique nicknames: 873 (+52)
+2025-08-06 11:37:27,621 - INFO - Scraping letter F page 2: https://www.hltv.org/players/F?offset=52
+2025-08-06 11:37:27,839 - INFO - Letter F page 2 found 52 player nicknames
+2025-08-06 11:37:27,840 - INFO - Total unique nicknames: 925 (+52)
+2025-08-06 11:37:28,841 - INFO - Scraping letter F page 3: https://www.hltv.org/players/F?offset=104
+2025-08-06 11:37:29,055 - INFO - Letter F page 3 found 41 player nicknames
+2025-08-06 11:37:29,055 - INFO - Total unique nicknames: 966 (+41)
+2025-08-06 11:37:30,056 - INFO - Letter F processing completed, current total: 966 unique nicknames
+2025-08-06 11:37:30,056 - INFO - Processing letter G (7/26)
+2025-08-06 11:37:31,910 - INFO - Letter G detected maximum pages: 2
+2025-08-06 11:37:31,910 - INFO - Scraping letter G page 1: https://www.hltv.org/players/G
+2025-08-06 11:37:32,561 - INFO - Letter G page 1 found 52 player nicknames
+2025-08-06 11:37:32,561 - INFO - Total unique nicknames: 1018 (+52)
+2025-08-06 11:37:33,562 - INFO - Scraping letter G page 2: https://www.hltv.org/players/G?offset=52
+2025-08-06 11:37:33,803 - INFO - Letter G page 2 found 28 player nicknames
+2025-08-06 11:37:33,804 - INFO - Total unique nicknames: 1046 (+28)
+2025-08-06 11:37:34,805 - INFO - Letter G processing completed, current total: 1046 unique nicknames
+2025-08-06 11:37:34,805 - INFO - Processing letter H (8/26)
+2025-08-06 11:37:37,149 - INFO - Letter H detected maximum pages: 3
+2025-08-06 11:37:37,149 - INFO - Scraping letter H page 1: https://www.hltv.org/players/H
+2025-08-06 11:37:37,377 - INFO - Letter H page 1 found 52 player nicknames
+2025-08-06 11:37:37,377 - INFO - Total unique nicknames: 1098 (+52)
+2025-08-06 11:37:38,378 - INFO - Scraping letter H page 2: https://www.hltv.org/players/H?offset=52
+2025-08-06 11:37:38,608 - INFO - Letter H page 2 found 52 player nicknames
+2025-08-06 11:37:38,608 - INFO - Total unique nicknames: 1150 (+52)
+2025-08-06 11:37:39,609 - INFO - Scraping letter H page 3: https://www.hltv.org/players/H?offset=104
+2025-08-06 11:37:39,814 - INFO - Letter H page 3 found 3 player nicknames
+2025-08-06 11:37:39,814 - INFO - Total unique nicknames: 1153 (+3)
+2025-08-06 11:37:40,815 - INFO - Letter H processing completed, current total: 1153 unique nicknames
+2025-08-06 11:37:40,816 - INFO - Processing letter I (9/26)
+2025-08-06 11:37:41,620 - INFO - Letter I detected maximum pages: 1
+2025-08-06 11:37:41,620 - INFO - Scraping letter I page 1: https://www.hltv.org/players/I
+2025-08-06 11:37:41,835 - INFO - Letter I page 1 found 42 player nicknames
+2025-08-06 11:37:41,835 - INFO - Total unique nicknames: 1195 (+42)
+2025-08-06 11:37:42,836 - INFO - Letter I processing completed, current total: 1195 unique nicknames
+2025-08-06 11:37:42,837 - INFO - Processing letter J (10/26)
+2025-08-06 11:37:45,395 - INFO - Letter J detected maximum pages: 3
+2025-08-06 11:37:45,395 - INFO - Scraping letter J page 1: https://www.hltv.org/players/J
+2025-08-06 11:37:45,675 - INFO - Letter J page 1 found 52 player nicknames
+2025-08-06 11:37:45,676 - INFO - Total unique nicknames: 1247 (+52)
+2025-08-06 11:37:46,677 - INFO - Scraping letter J page 2: https://www.hltv.org/players/J?offset=52
+2025-08-06 11:37:46,968 - INFO - Letter J page 2 found 52 player nicknames
+2025-08-06 11:37:46,968 - INFO - Total unique nicknames: 1299 (+52)
+2025-08-06 11:37:47,969 - INFO - Scraping letter J page 3: https://www.hltv.org/players/J?offset=104
+2025-08-06 11:37:48,183 - INFO - Letter J page 3 found 17 player nicknames
+2025-08-06 11:37:48,184 - INFO - Total unique nicknames: 1316 (+17)
+2025-08-06 11:37:49,185 - INFO - Letter J processing completed, current total: 1316 unique nicknames
+2025-08-06 11:37:49,185 - INFO - Processing letter K (11/26)
+2025-08-06 11:37:52,212 - INFO - Letter K detected maximum pages: 4
+2025-08-06 11:37:52,212 - INFO - Scraping letter K page 1: https://www.hltv.org/players/K
+2025-08-06 11:37:52,455 - INFO - Letter K page 1 found 52 player nicknames
+2025-08-06 11:37:52,456 - INFO - Total unique nicknames: 1368 (+52)
+2025-08-06 11:37:53,457 - INFO - Scraping letter K page 2: https://www.hltv.org/players/K?offset=52
+2025-08-06 11:37:53,703 - INFO - Letter K page 2 found 52 player nicknames
+2025-08-06 11:37:53,703 - INFO - Total unique nicknames: 1420 (+52)
+2025-08-06 11:37:54,704 - INFO - Scraping letter K page 3: https://www.hltv.org/players/K?offset=104
+2025-08-06 11:37:54,924 - INFO - Letter K page 3 found 52 player nicknames
+2025-08-06 11:37:54,924 - INFO - Total unique nicknames: 1472 (+52)
+2025-08-06 11:37:55,925 - INFO - Scraping letter K page 4: https://www.hltv.org/players/K?offset=156
+2025-08-06 11:37:56,141 - INFO - Letter K page 4 found 32 player nicknames
+2025-08-06 11:37:56,141 - INFO - Total unique nicknames: 1504 (+32)
+2025-08-06 11:37:57,143 - INFO - Letter K processing completed, current total: 1504 unique nicknames
+2025-08-06 11:37:57,143 - INFO - Processing letter L (12/26)
+2025-08-06 11:37:59,451 - INFO - Letter L detected maximum pages: 3
+2025-08-06 11:37:59,451 - INFO - Scraping letter L page 1: https://www.hltv.org/players/L
+2025-08-06 11:37:59,683 - INFO - Letter L page 1 found 52 player nicknames
+2025-08-06 11:37:59,683 - INFO - Total unique nicknames: 1555 (+51)
+2025-08-06 11:38:00,685 - INFO - Scraping letter L page 2: https://www.hltv.org/players/L?offset=52
+2025-08-06 11:38:00,954 - INFO - Letter L page 2 found 52 player nicknames
+2025-08-06 11:38:00,954 - INFO - Total unique nicknames: 1606 (+51)
+2025-08-06 11:38:01,955 - INFO - Scraping letter L page 3: https://www.hltv.org/players/L?offset=104
+2025-08-06 11:38:02,211 - INFO - Letter L page 3 found 19 player nicknames
+2025-08-06 11:38:02,211 - INFO - Total unique nicknames: 1625 (+19)
+2025-08-06 11:38:03,212 - INFO - Letter L processing completed, current total: 1625 unique nicknames
+2025-08-06 11:38:03,213 - INFO - Processing letter M (13/26)
+2025-08-06 11:38:07,225 - INFO - Letter M detected maximum pages: 5
+2025-08-06 11:38:07,225 - INFO - Scraping letter M page 1: https://www.hltv.org/players/M
+2025-08-06 11:38:07,448 - INFO - Letter M page 1 found 52 player nicknames
+2025-08-06 11:38:07,448 - INFO - Total unique nicknames: 1676 (+51)
+2025-08-06 11:38:08,449 - INFO - Scraping letter M page 2: https://www.hltv.org/players/M?offset=52
+2025-08-06 11:38:08,779 - INFO - Letter M page 2 found 52 player nicknames
+2025-08-06 11:38:08,779 - INFO - Total unique nicknames: 1728 (+52)
+2025-08-06 11:38:09,780 - INFO - Scraping letter M page 3: https://www.hltv.org/players/M?offset=104
+2025-08-06 11:38:10,011 - INFO - Letter M page 3 found 52 player nicknames
+2025-08-06 11:38:10,011 - INFO - Total unique nicknames: 1778 (+50)
+2025-08-06 11:38:11,012 - INFO - Scraping letter M page 4: https://www.hltv.org/players/M?offset=156
+2025-08-06 11:38:11,269 - INFO - Letter M page 4 found 52 player nicknames
+2025-08-06 11:38:11,269 - INFO - Total unique nicknames: 1829 (+51)
+2025-08-06 11:38:12,270 - INFO - Scraping letter M page 5: https://www.hltv.org/players/M?offset=208
+2025-08-06 11:38:12,487 - INFO - Letter M page 5 found 52 player nicknames
+2025-08-06 11:38:12,487 - INFO - Total unique nicknames: 1881 (+52)
+2025-08-06 11:38:13,489 - INFO - Letter M processing completed, current total: 1881 unique nicknames
+2025-08-06 11:38:13,489 - INFO - Processing letter N (14/26)
+2025-08-06 11:38:16,184 - INFO - Letter N detected maximum pages: 3
+2025-08-06 11:38:16,184 - INFO - Scraping letter N page 1: https://www.hltv.org/players/N
+2025-08-06 11:38:16,400 - INFO - Letter N page 1 found 52 player nicknames
+2025-08-06 11:38:16,400 - INFO - Total unique nicknames: 1932 (+51)
+2025-08-06 11:38:17,401 - INFO - Scraping letter N page 2: https://www.hltv.org/players/N?offset=52
+2025-08-06 11:38:17,668 - INFO - Letter N page 2 found 52 player nicknames
+2025-08-06 11:38:17,668 - INFO - Total unique nicknames: 1983 (+51)
+2025-08-06 11:38:18,670 - INFO - Scraping letter N page 3: https://www.hltv.org/players/N?offset=104
+2025-08-06 11:38:18,904 - INFO - Letter N page 3 found 49 player nicknames
+2025-08-06 11:38:18,904 - INFO - Total unique nicknames: 2032 (+49)
+2025-08-06 11:38:19,905 - INFO - Letter N processing completed, current total: 2032 unique nicknames
+2025-08-06 11:38:19,905 - INFO - Processing letter O (15/26)
+2025-08-06 11:38:20,659 - INFO - Letter O detected maximum pages: 1
+2025-08-06 11:38:20,659 - INFO - Scraping letter O page 1: https://www.hltv.org/players/O
+2025-08-06 11:38:20,876 - INFO - Letter O page 1 found 51 player nicknames
+2025-08-06 11:38:20,876 - INFO - Total unique nicknames: 2083 (+51)
+2025-08-06 11:38:21,877 - INFO - Letter O processing completed, current total: 2083 unique nicknames
+2025-08-06 11:38:21,877 - INFO - Processing letter P (16/26)
+2025-08-06 11:38:24,199 - INFO - Letter P detected maximum pages: 3
+2025-08-06 11:38:24,199 - INFO - Scraping letter P page 1: https://www.hltv.org/players/P
+2025-08-06 11:38:24,438 - INFO - Letter P page 1 found 52 player nicknames
+2025-08-06 11:38:24,439 - INFO - Total unique nicknames: 2135 (+52)
+2025-08-06 11:38:25,440 - INFO - Scraping letter P page 2: https://www.hltv.org/players/P?offset=52
+2025-08-06 11:38:25,681 - INFO - Letter P page 2 found 52 player nicknames
+2025-08-06 11:38:25,682 - INFO - Total unique nicknames: 2187 (+52)
+2025-08-06 11:38:26,683 - INFO - Scraping letter P page 3: https://www.hltv.org/players/P?offset=104
+2025-08-06 11:38:26,910 - INFO - Letter P page 3 found 29 player nicknames
+2025-08-06 11:38:26,910 - INFO - Total unique nicknames: 2216 (+29)
+2025-08-06 11:38:27,911 - INFO - Letter P processing completed, current total: 2216 unique nicknames
+2025-08-06 11:38:27,912 - INFO - Processing letter Q (17/26)
+2025-08-06 11:38:28,676 - INFO - Letter Q detected maximum pages: 1
+2025-08-06 11:38:28,676 - INFO - Scraping letter Q page 1: https://www.hltv.org/players/Q
+2025-08-06 11:38:28,880 - INFO - Letter Q page 1 found 13 player nicknames
+2025-08-06 11:38:28,881 - INFO - Total unique nicknames: 2229 (+13)
+2025-08-06 11:38:29,882 - INFO - Letter Q processing completed, current total: 2229 unique nicknames
+2025-08-06 11:38:29,882 - INFO - Processing letter R (18/26)
+2025-08-06 11:38:33,070 - INFO - Letter R detected maximum pages: 4
+2025-08-06 11:38:33,070 - INFO - Scraping letter R page 1: https://www.hltv.org/players/R
+2025-08-06 11:38:33,299 - INFO - Letter R page 1 found 52 player nicknames
+2025-08-06 11:38:33,299 - INFO - Total unique nicknames: 2279 (+50)
+2025-08-06 11:38:34,300 - INFO - Scraping letter R page 2: https://www.hltv.org/players/R?offset=52
+2025-08-06 11:38:34,583 - INFO - Letter R page 2 found 52 player nicknames
+2025-08-06 11:38:34,583 - INFO - Total unique nicknames: 2331 (+52)
+2025-08-06 11:38:35,584 - INFO - Scraping letter R page 3: https://www.hltv.org/players/R?offset=104
+2025-08-06 11:38:35,822 - INFO - Letter R page 3 found 52 player nicknames
+2025-08-06 11:38:35,823 - INFO - Total unique nicknames: 2383 (+52)
+2025-08-06 11:38:36,824 - INFO - Scraping letter R page 4: https://www.hltv.org/players/R?offset=156
+2025-08-06 11:38:37,053 - INFO - Letter R page 4 found 19 player nicknames
+2025-08-06 11:38:37,054 - INFO - Total unique nicknames: 2402 (+19)
+2025-08-06 11:38:38,055 - INFO - Letter R processing completed, current total: 2402 unique nicknames
+2025-08-06 11:38:38,055 - INFO - Processing letter S (19/26)
+2025-08-06 11:38:43,950 - INFO - Letter S detected maximum pages: 8
+2025-08-06 11:38:43,950 - INFO - Scraping letter S page 1: https://www.hltv.org/players/S
+2025-08-06 11:38:44,183 - INFO - Letter S page 1 found 52 player nicknames
+2025-08-06 11:38:44,183 - INFO - Total unique nicknames: 2454 (+52)
+2025-08-06 11:38:45,184 - INFO - Scraping letter S page 2: https://www.hltv.org/players/S?offset=52
+2025-08-06 11:38:45,427 - INFO - Letter S page 2 found 52 player nicknames
+2025-08-06 11:38:45,427 - INFO - Total unique nicknames: 2506 (+52)
+2025-08-06 11:38:46,429 - INFO - Scraping letter S page 3: https://www.hltv.org/players/S?offset=104
+2025-08-06 11:38:46,713 - INFO - Letter S page 3 found 52 player nicknames
+2025-08-06 11:38:46,713 - INFO - Total unique nicknames: 2558 (+52)
+2025-08-06 11:38:47,714 - INFO - Scraping letter S page 4: https://www.hltv.org/players/S?offset=156
+2025-08-06 11:38:48,334 - INFO - Letter S page 4 found 52 player nicknames
+2025-08-06 11:38:48,334 - INFO - Total unique nicknames: 2610 (+52)
+2025-08-06 11:38:49,335 - INFO - Scraping letter S page 5: https://www.hltv.org/players/S?offset=208
+2025-08-06 11:38:49,637 - INFO - Letter S page 5 found 52 player nicknames
+2025-08-06 11:38:49,637 - INFO - Total unique nicknames: 2661 (+51)
+2025-08-06 11:38:50,638 - INFO - Scraping letter S page 6: https://www.hltv.org/players/S?offset=260
+2025-08-06 11:38:50,861 - INFO - Letter S page 6 found 52 player nicknames
+2025-08-06 11:38:50,861 - INFO - Total unique nicknames: 2713 (+52)
+2025-08-06 11:38:51,862 - INFO - Scraping letter S page 7: https://www.hltv.org/players/S?offset=312
+2025-08-06 11:38:52,431 - INFO - Letter S page 7 found 52 player nicknames
+2025-08-06 11:38:52,431 - INFO - Total unique nicknames: 2765 (+52)
+2025-08-06 11:38:53,432 - INFO - Scraping letter S page 8: https://www.hltv.org/players/S?offset=364
+2025-08-06 11:38:53,645 - INFO - Letter S page 8 found 11 player nicknames
+2025-08-06 11:38:53,645 - INFO - Total unique nicknames: 2776 (+11)
+2025-08-06 11:38:54,646 - INFO - Letter S processing completed, current total: 2776 unique nicknames
+2025-08-06 11:38:54,646 - INFO - Processing letter T (20/26)
+2025-08-06 11:38:57,676 - INFO - Letter T detected maximum pages: 4
+2025-08-06 11:38:57,676 - INFO - Scraping letter T page 1: https://www.hltv.org/players/T
+2025-08-06 11:38:57,905 - INFO - Letter T page 1 found 52 player nicknames
+2025-08-06 11:38:57,905 - INFO - Total unique nicknames: 2828 (+52)
+2025-08-06 11:38:58,906 - INFO - Scraping letter T page 2: https://www.hltv.org/players/T?offset=52
+2025-08-06 11:38:59,177 - INFO - Letter T page 2 found 52 player nicknames
+2025-08-06 11:38:59,178 - INFO - Total unique nicknames: 2880 (+52)
+2025-08-06 11:39:00,179 - INFO - Scraping letter T page 3: https://www.hltv.org/players/T?offset=104
+2025-08-06 11:39:00,573 - INFO - Letter T page 3 found 52 player nicknames
+2025-08-06 11:39:00,574 - INFO - Total unique nicknames: 2932 (+52)
+2025-08-06 11:39:01,575 - INFO - Scraping letter T page 4: https://www.hltv.org/players/T?offset=156
+2025-08-06 11:39:01,829 - INFO - Letter T page 4 found 16 player nicknames
+2025-08-06 11:39:01,829 - INFO - Total unique nicknames: 2947 (+15)
+2025-08-06 11:39:02,831 - INFO - Letter T processing completed, current total: 2947 unique nicknames
+2025-08-06 11:39:02,831 - INFO - Processing letter U (21/26)
+2025-08-06 11:39:03,997 - INFO - Letter U detected maximum pages: 1
+2025-08-06 11:39:03,997 - INFO - Scraping letter U page 1: https://www.hltv.org/players/U
+2025-08-06 11:39:04,222 - INFO - Letter U page 1 found 14 player nicknames
+2025-08-06 11:39:04,223 - INFO - Total unique nicknames: 2961 (+14)
+2025-08-06 11:39:05,224 - INFO - Letter U processing completed, current total: 2961 unique nicknames
+2025-08-06 11:39:05,224 - INFO - Processing letter V (22/26)
+2025-08-06 11:39:07,048 - INFO - Letter V detected maximum pages: 2
+2025-08-06 11:39:07,049 - INFO - Scraping letter V page 1: https://www.hltv.org/players/V
+2025-08-06 11:39:07,338 - INFO - Letter V page 1 found 52 player nicknames
+2025-08-06 11:39:07,338 - INFO - Total unique nicknames: 3013 (+52)
+2025-08-06 11:39:08,340 - INFO - Scraping letter V page 2: https://www.hltv.org/players/V?offset=52
+2025-08-06 11:39:08,550 - INFO - Letter V page 2 found 20 player nicknames
+2025-08-06 11:39:08,550 - INFO - Total unique nicknames: 3032 (+19)
+2025-08-06 11:39:09,551 - INFO - Letter V processing completed, current total: 3032 unique nicknames
+2025-08-06 11:39:09,551 - INFO - Processing letter W (23/26)
+2025-08-06 11:39:11,220 - INFO - Letter W detected maximum pages: 2
+2025-08-06 11:39:11,220 - INFO - Scraping letter W page 1: https://www.hltv.org/players/W
+2025-08-06 11:39:11,436 - INFO - Letter W page 1 found 52 player nicknames
+2025-08-06 11:39:11,436 - INFO - Total unique nicknames: 3084 (+52)
+2025-08-06 11:39:12,438 - INFO - Scraping letter W page 2: https://www.hltv.org/players/W?offset=52
+2025-08-06 11:39:12,775 - INFO - Letter W page 2 found 13 player nicknames
+2025-08-06 11:39:12,775 - INFO - Total unique nicknames: 3097 (+13)
+2025-08-06 11:39:13,776 - INFO - Letter W processing completed, current total: 3097 unique nicknames
+2025-08-06 11:39:13,777 - INFO - Processing letter X (24/26)
+2025-08-06 11:39:14,864 - INFO - Letter X detected maximum pages: 1
+2025-08-06 11:39:14,864 - INFO - Scraping letter X page 1: https://www.hltv.org/players/X
+2025-08-06 11:39:15,096 - INFO - Letter X page 1 found 49 player nicknames
+2025-08-06 11:39:15,096 - INFO - Total unique nicknames: 3146 (+49)
+2025-08-06 11:39:16,097 - INFO - Letter X processing completed, current total: 3146 unique nicknames
+2025-08-06 11:39:16,097 - INFO - Processing letter Y (25/26)
+2025-08-06 11:39:16,953 - INFO - Letter Y detected maximum pages: 1
+2025-08-06 11:39:16,953 - INFO - Scraping letter Y page 1: https://www.hltv.org/players/Y
+2025-08-06 11:39:17,185 - INFO - Letter Y page 1 found 43 player nicknames
+2025-08-06 11:39:17,185 - INFO - Total unique nicknames: 3189 (+43)
+2025-08-06 11:39:18,186 - INFO - Letter Y processing completed, current total: 3189 unique nicknames
+2025-08-06 11:39:18,187 - INFO - Processing letter Z (26/26)
+2025-08-06 11:39:19,677 - INFO - Letter Z detected maximum pages: 2
+2025-08-06 11:39:19,677 - INFO - Scraping letter Z page 1: https://www.hltv.org/players/Z
+2025-08-06 11:39:19,918 - INFO - Letter Z page 1 found 52 player nicknames
+2025-08-06 11:39:19,918 - INFO - Total unique nicknames: 3240 (+51)
+2025-08-06 11:39:20,919 - INFO - Scraping letter Z page 2: https://www.hltv.org/players/Z?offset=52
+2025-08-06 11:39:21,136 - INFO - Letter Z page 2 found 41 player nicknames
+2025-08-06 11:39:21,136 - INFO - Total unique nicknames: 3281 (+41)
+2025-08-06 11:39:22,137 - INFO - Letter Z processing completed, current total: 3281 unique nicknames
+2025-08-06 11:39:22,138 - INFO - Scraping completed! Found 3281 unique player nicknames
+2025-08-06 11:39:22,138 - INFO - Nickname samples: ['A10N3 B0Y', 'A1pha', 'ABM', 'ADDICT', 'ADK', 'ADRON', 'AE', 'AEROj', 'AGB', 'AGL']...
+2025-08-06 11:39:22,141 - INFO - Files saved successfully:
+2025-08-06 11:39:22,141 - INFO -   hltv_player_nicknames.json (45736 bytes)
+2025-08-06 11:39:22,141 - INFO -   hltv_player_nicknames.txt (42399 bytes)
+2025-08-06 11:39:22,141 - INFO -   hltv_player_nicknames.csv (37763 bytes)

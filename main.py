@@ -80,7 +80,7 @@ class HLTVPlayerScraper:
 
     def get_max_page_number_for_letter(self, letter: str) -> int:
         """
-        Automatically detect the maximum page number for a specific letter
+        Automatically detect the maximum page number for a specific letter using binary search approach
         
         Args:
             letter: Letter (A-Z)
@@ -91,46 +91,85 @@ class HLTVPlayerScraper:
         self.logger.debug(f"Detecting maximum page number for letter {letter}...")
         
         try:
+            # Start with the first page to check if letter has any players
             url = f"{self.base_url}/{letter}"
             response = self.request_with_retry(url)
             soup = BeautifulSoup(response.content, 'html.parser')
             
-            # Find pagination links - try multiple selectors
-            pagination_selectors = [
-                'a[href*="offset="]',  # Links containing offset parameter
-                '.pagination a',       # Links in pagination container
-                f'a[href*="/players/{letter}?offset="]'  # Specific players letter page links
-            ]
+            # Check if first page has any players
+            nickname_elements = soup.select('.players-archive-nickname.text-ellipsis')
+            if not nickname_elements:
+                # No players for this letter
+                self.logger.debug(f"Letter {letter} - no players found")
+                return 0
             
-            pagination_links = []
-            for selector in pagination_selectors:
-                links = soup.select(selector)
-                if links:
-                    pagination_links = links
+            # Use progressive search to find the actual last page
+            # Start with a reasonable upper bound and narrow down
+            max_page = 1
+            page_to_test = 1
+            
+            # First, try to find the upper bound by testing progressively larger page numbers
+            test_increments = [1, 5, 10, 20, 50, 100]  # Progressive search increments
+            
+            for increment in test_increments:
+                while True:
+                    test_page = page_to_test + increment
+                    test_offset = (test_page - 1) * self.PLAYERS_PER_PAGE
+                    test_url = f"{self.base_url}/{letter}?offset={test_offset}"
+                    
+                    try:
+                        self.logger.debug(f"Testing page {test_page} for letter {letter} (offset: {test_offset})")
+                        test_response = self.request_with_retry(test_url)
+                        test_soup = BeautifulSoup(test_response.content, 'html.parser')
+                        test_nicknames = test_soup.select('.players-archive-nickname.text-ellipsis')
+                        
+                        if test_nicknames:
+                            # This page has players, update max_page and continue
+                            max_page = test_page
+                            page_to_test = test_page
+                            self.logger.debug(f"Letter {letter} page {test_page} has {len(test_nicknames)} players")
+                        else:
+                            # This page is empty, we've gone too far
+                            self.logger.debug(f"Letter {letter} page {test_page} is empty, stopping increment {increment}")
+                            break
+                        
+                        # Small delay to be respectful
+                        time.sleep(0.5)
+                        
+                    except Exception as e:
+                        self.logger.warning(f"Error testing page {test_page} for letter {letter}: {e}")
+                        break
+                
+                # If we found the boundary with this increment, no need to try larger ones
+                if page_to_test == max_page:
                     break
             
-            if not pagination_links:
-                # If no pagination links found, there might be only one page
-                self.logger.debug(f"Letter {letter} - no pagination links found, only one page")
-                return 1
+            # Now do a fine-grained search around the last known good page
+            # Check a few pages after max_page to make sure we didn't miss any
+            for additional_page in range(max_page + 1, max_page + 6):
+                test_offset = (additional_page - 1) * self.PLAYERS_PER_PAGE
+                test_url = f"{self.base_url}/{letter}?offset={test_offset}"
+                
+                try:
+                    self.logger.debug(f"Fine-grained test page {additional_page} for letter {letter}")
+                    test_response = self.request_with_retry(test_url)
+                    test_soup = BeautifulSoup(test_response.content, 'html.parser')
+                    test_nicknames = test_soup.select('.players-archive-nickname.text-ellipsis')
+                    
+                    if test_nicknames:
+                        max_page = additional_page
+                        self.logger.debug(f"Letter {letter} extended to page {additional_page} with {len(test_nicknames)} players")
+                    else:
+                        # No more players found, stop searching
+                        break
+                    
+                    time.sleep(0.5)
+                    
+                except Exception as e:
+                    self.logger.warning(f"Error in fine-grained test for page {additional_page}: {e}")
+                    break
             
-            # Extract all offset values
-            offsets = []
-            for link in pagination_links:
-                href = link.get('href', '')
-                offset_match = re.search(r'offset=(\d+)', href)
-                if offset_match:
-                    offsets.append(int(offset_match.group(1)))
-            
-            if not offsets:
-                self.logger.debug(f"Letter {letter} - no valid offset values found, defaulting to 1 page")
-                return 1
-            
-            max_offset = max(offsets)
-            # Calculate maximum page number
-            max_page = (max_offset // self.PLAYERS_PER_PAGE) + 1
-            
-            self.logger.debug(f"Letter {letter} detected maximum pages: {max_page} (max offset: {max_offset})")
+            self.logger.info(f"Letter {letter} detected maximum pages: {max_page}")
             return max_page
             
         except Exception as e:
@@ -170,6 +209,21 @@ class HLTVPlayerScraper:
             nickname = element.get_text(strip=True)
             if nickname:
                 nicknames.append(nickname)
+        
+        # Double-check: if no nicknames found, verify this is indeed an empty page
+        if not nicknames:
+            # Look for any indication this page should have players
+            player_containers = soup.select('.players-archive')
+            player_links = soup.find_all('a', href=re.compile(r'/player/\d+'))
+            
+            if player_containers or player_links:
+                self.logger.warning("Page structure may have changed - found player containers but no nicknames")
+                # Try alternative extraction methods
+                for link in player_links[:52]:  # HLTV shows max 52 per page
+                    # Try to extract nickname from player link text or URL
+                    link_text = link.get_text(strip=True)
+                    if link_text and link_text not in nicknames:
+                        nicknames.append(link_text)
         
         return nicknames
 
@@ -226,6 +280,11 @@ class HLTVPlayerScraper:
             try:
                 # Get maximum page number for this letter
                 max_page = self.get_max_page_number_for_letter(letter)
+                
+                # Skip letters with no players
+                if max_page == 0:
+                    self.logger.info(f"Letter {letter} has no players, skipping...")
+                    continue
                 
                 # Iterate through all pages of this letter
                 for page_num in range(1, max_page + 1):
